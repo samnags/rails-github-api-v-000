@@ -10,7 +10,7 @@ end
 describe "visiting root" do
   before :each do
     page.set_rack_session(:token => "1")
-  end
+ end
 
   it "lists repos" do
     visit '/'
